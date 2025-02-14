@@ -78,7 +78,7 @@
             <img src="flowers.png" alt="Flores" width="200">
             <h1>¿Quieres ser mi Valentín?</h1>
             <div>
-                <button class="button" onclick="showValentineMessage()">Sí</button>
+                <button class="button" onclick="location.href='valentin.html'">Sí</button>
                 <button class="button cancel-button" disabled>No</button>
             </div>
         </div>
@@ -92,27 +92,6 @@
         <div class="heart" style="left: 30%; animation-delay: 5s;"></div>
         <div class="heart" style="left: 35%; animation-delay: 6s;"></div>
     </div>
-
-    <script>
-        function showValentineMessage() {
-            document.body.innerHTML = `
-                <div class="container">
-                    <div class="flowers">
-                        <img src="flowers.png" alt="Flores" width="200">
-                        <h1>Sabía que dirías que sí</h1>
-                    </div>
-                </div>
-                <div class="floating-hearts">
-                    <div class="heart" style="left: 5%; animation-delay: 0s;"></div>
-                    <div class="heart" style="left: 10%; animation-delay: 1s;"></div>
-                    <div class="heart" style="left: 15%; animation-delay: 2s;"></div>
-                    <div class="heart" style="left: 20%; animation-delay: 3s;"></div>
-                    <div class="heart" style="left: 25%; animation-delay: 4s;"></div>
-                    <div class="heart" style="left: 30%; animation-delay: 5s;"></div>
-                    <div class="heart" style="left: 35%; animation-delay: 6s;"></div>
-                </div>
-            `;
-        }
-    </script>
 </body>
 </html>
+
